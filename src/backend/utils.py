@@ -6,7 +6,8 @@ from backend.constants import ChatModel
 def is_local_model(model: ChatModel) -> bool:
     return model in [
         ChatModel.LOCAL_LLAMA_3,
-        ChatModel.LOCAL_GEMMA,
+        ChatModel.LOCAL_GEMMA_3n,
+        ChatModel.LOCAL_GEMMA_3,
         ChatModel.LOCAL_MISTRAL,
         ChatModel.LOCAL_PHI3_14B,
         ChatModel.CUSTOM,

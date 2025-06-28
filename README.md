@@ -2,7 +2,7 @@
 
 Open-source AI-powered search engine. (Perplexity Clone)
 
-Run local LLMs (**llama3**, **gemma**, **mistral**, **phi3**), custom LLMs through **LiteLLM**, or use cloud models (**Groq/Llama3**, **OpenAI/gpt4-o**)
+Run local LLMs (**llama3**, **gemma3n**, **gemma3**, **mistral**, **phi3**), custom LLMs through **LiteLLM**, or use cloud models (**Groq/Llama3**, **OpenAI/gpt4-o**)
 
 https://github.com/rashadphz/farfalle/assets/20783686/9527a8c9-a13b-4e53-9cda-a3ab28d671b2
 
@@ -44,7 +44,7 @@ Please feel free to contact me on [Twitter](https://twitter.com/rashadphz) or [c
 ## Features
 - Search with multiple search providers (Tavily, Searxng, Serper, Bing)
 - Answer questions with cloud models (OpenAI/gpt4-o, OpenAI/gpt3.5-turbo, Groq/Llama3)
-- Answer questions with local models (llama3, mistral, gemma, phi3)
+- Answer questions with local models (llama3, mistral, gemma3n, gemma3, phi3)
 - Answer questions with any custom LLMs through [LiteLLM](https://litellm.vercel.app/docs/providers)
 - Search with an agent that plans and executes the search for better results
 

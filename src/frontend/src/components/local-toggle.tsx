@@ -62,7 +62,8 @@ const LocalToggle = () => {
             <div>Currently supports:</div>
             <ul className="list-disc list-inside font-semibold">
               <li>Llama3</li>
-              <li>Gemma</li>
+              <li>Gemma3n</li>
+              <li>Gemma3</li>
               <li>Mistral</li>
               <li>Phi3</li>
             </ul>

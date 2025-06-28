@@ -65,9 +65,16 @@ export const modelMap: Record<ChatModel, Model> = {
     smallIcon: <WandSparklesIcon className="w-4 h-4 text-purple-500" />,
     icon: <WandSparklesIcon className="w-5 h-5 text-purple-500" />,
   },
-  [ChatModel.GEMMA]: {
-    name: "Gemma",
-    description: "ollama/gemma",
+  [ChatModel.GEMMA3n]: {
+    name: "Gemma3n",
+    description: "ollama/gemma3n",
+    value: ChatModel.GEMMA,
+    smallIcon: <SparklesIcon className="w-4 h-4 text-[#449DFF]" />,
+    icon: <SparklesIcon className="w-5 h-5 text-[#449DFF]" />,
+  },
+  [ChatModel.GEMMA3]: {
+    name: "Gemma3",
+    description: "ollama/gemma3",
     value: ChatModel.GEMMA,
     smallIcon: <SparklesIcon className="w-4 h-4 text-[#449DFF]" />,
     icon: <SparklesIcon className="w-5 h-5 text-[#449DFF]" />,

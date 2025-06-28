@@ -14,7 +14,8 @@ class ChatModel(str, Enum):
 
     # Local models
     LOCAL_LLAMA_3 = "llama3.1"
-    LOCAL_GEMMA = "gemma"
+    LOCAL_GEMMA_3n = "gemma3n"
+    LOCAL_GEMMA_3 = "gemma3"
     LOCAL_MISTRAL = "mistral"
     LOCAL_PHI3_14B = "phi3:14b"
 
@@ -27,7 +28,8 @@ model_mappings: dict[ChatModel, str] = {
     ChatModel.GPT_4o_mini: "openai/gpt-4o-mini",
     ChatModel.LLAMA_3_70B: "groq/llama-3.1-70b-versatile",
     ChatModel.LOCAL_LLAMA_3: "ollama_chat/llama3.1",
-    ChatModel.LOCAL_GEMMA: "ollama_chat/gemma",
+    ChatModel.LOCAL_GEMMA_3n: "ollama_chat/gemma3n:latest",
+    ChatModel.LOCAL_GEMMA_3: "ollama_chat/gemma3:27b",
     ChatModel.LOCAL_MISTRAL: "ollama_chat/mistral",
     ChatModel.LOCAL_PHI3_14B: "ollama_chat/phi3:14b",
 }
