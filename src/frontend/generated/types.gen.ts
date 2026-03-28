@@ -71,6 +71,7 @@ export enum ChatModel {
   LLAMA3 = "llama3.1",
   GEMMA3n = "gemma3n",
   GEMMA3 = "gemma3",
+  NEMOTRON3 = "nemotron3",
   MISTRAL = "mistral",
   PHI3_14B = "phi3:14b",
   CUSTOM = "custom",

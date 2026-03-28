@@ -18,6 +18,7 @@ class ChatModel(str, Enum):
     LOCAL_GEMMA_3 = "gemma3"
     LOCAL_MISTRAL = "mistral"
     LOCAL_PHI3_14B = "phi3:14b"
+    LOCAL_NEMOTRON_3 = "nemotron3"
 
     # Custom models
     CUSTOM = "custom"
@@ -32,6 +33,7 @@ model_mappings: dict[ChatModel, str] = {
     ChatModel.LOCAL_GEMMA_3: "ollama_chat/gemma3:27b",
     ChatModel.LOCAL_MISTRAL: "ollama_chat/mistral",
     ChatModel.LOCAL_PHI3_14B: "ollama_chat/phi3:14b",
+    ChatModel.LOCAL_NEMOTRON_3: "ollama_chat/nemotron-3-nano:4b",
 }
 
 

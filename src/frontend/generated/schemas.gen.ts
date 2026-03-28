@@ -290,6 +290,7 @@ export const $ChatModel = {
     "llama3",
     "gemma3n",
     "gemma3",
+    "nemotron3",
     "mistral",
     "phi3:14b",
     "custom",

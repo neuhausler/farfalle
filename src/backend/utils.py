@@ -10,6 +10,7 @@ def is_local_model(model: ChatModel) -> bool:
         ChatModel.LOCAL_GEMMA_3,
         ChatModel.LOCAL_MISTRAL,
         ChatModel.LOCAL_PHI3_14B,
+        ChatModel.LOCAL_NEMOTRON_3,
         ChatModel.CUSTOM,
     ]
 

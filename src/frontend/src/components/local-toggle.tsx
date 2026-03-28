@@ -64,6 +64,7 @@ const LocalToggle = () => {
               <li>Llama3</li>
               <li>Gemma3n</li>
               <li>Gemma3</li>
+              <li>Nemotron3</li>
               <li>Mistral</li>
               <li>Phi3</li>
             </ul>
